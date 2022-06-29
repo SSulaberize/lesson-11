@@ -77,12 +77,14 @@ P{
   background-color: #5eb6e1;
   border-radius: 10px;
 }
+
 .get-started {
   font-family: "FuturaPT";
   font-size: 20px;
   color: #000000;
   text-transform: capitalize;
 }
+
 .container {
   position: absolute;
   max-width: 550px;
@@ -174,9 +176,12 @@ P{
 /* Section 3 */
 .section-3{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 auto;
   max-width: 1200px;
   width: 100%;
+  padding: 200px 0px;
 }
 .about-us{
     font-family: "FuturaPT-Bold";
@@ -188,21 +193,76 @@ P{
     display: inline-block;
     height: 1px;
     width: 168px;
-    color: black;
+    background-color: #00A2FF;
+}
+.black-paragraph{
+  margin-top: 20px;
+  color: #ffffff;
 }
 .orange{
   color: #ff6c2c;
-  margin-bottom: 20px;
+  margin: 30px 0px;
 }
 .text{
+  display: flex;
+  flex-direction: column;
   max-width: 350px;
+  width: 100%;
+  padding-top: 250px;
+}
+.button2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50px;
+  width: 100px;
+  background-color: #5eb6e1;
+  border-radius: 10px;
+  margin-top: 30px;
+}
+.read-more{
+  font-family: "FuturaPT";
+  font-size: 15px;
+  color: #000000;
+  text-transform: capitalize;
+}
+.grey{
+  color: #9E9E9E;
+}
+.triangle{
+display: flex;
+flex-direction: row;
+}
+.triangle-1{
+  display: flex;
+  flex-direction: row;
+  padding-top: 150px;
+}
+.triangle-2{
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.measure{
+  height: 456px;
+  width: 280px;
+}
+.treadmill{
+  height: 356px;
+  width: 280px;
+}
+.rope{
+  height: 356px;
+  width: 280px;
+  margin-top: 20px;
+
 }
 /* Section-4 */
 .black-square{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 1537px;
+  height: 1000px;
   width: 100%;
   background-color: #000000;
 }
@@ -212,6 +272,180 @@ P{
   text-align: center;
 
 }
+.wrapper{
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+  align-content: center;
+  max-width: 1200px;
+  width: 100%;
+
+}
 .white{
   color: #ffffff;
+}
+.block{
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 75px;
+}
+.block-box{
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-size: cover;
+  width: 400px;
+  height: 300px;
+}
+.block-box:nth-child(1){
+  background-image: url('../images/barbells.jpg');
+}
+.block-box:nth-child(2){
+  background-image: url('../images/barbells-2.jpg');
+}
+.block-box:nth-child(3){
+  background-image: url('../images/cycling.jpg');
+}
+.block-box:nth-child(4){
+  background-image: url('../images/dumbbell.jpg');
+}
+.block-box:nth-child(5){
+  background-image: url('../images/abs.jpg');
+}
+.block-box:nth-child(6){
+  background-image: url('../images/weightlifting.jpg');
+}
+.block-box-span{
+  font-family: 'FuturaPT-Book';
+  font-size: 35px;
+  color: #ffffff;
+  text-transform: capitalize;
+  display: inline-block;
+}
+.block-box::after{
+  content: '';
+  width: 100%;
+  height: 20%;
+  background-color: #000000;
+  opacity: 75%;
+  display: inline-block;
+}
+/* Section-5 */
+.team{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 100px;
+  width: 100%;
+  margin: 0 auto;
+}
+.text3{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 500px;
+  width: 100%;
+  margin-bottom: 62px;
+}
+.trio-paragraph{
+  margin-top: 20px;
+}
+.trio-container{
+  display: flex;
+  justify-content: space-evenly;
+  max-width: 1500px;
+  width: 100%;
+}
+.trio-box{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 470px;
+  max-width: 350px;
+  width: 100%;
+  box-shadow: 5px 2px 10px #888888 ;
+}
+.black{
+  color:black;
+}
+.icon{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  max-width: 100px;
+  width: 100%;
+}
+.medium{
+  max-width: 170px;
+  width: 100%;
+  color: #292F39;
+  margin: 10px 0px;
+}
+.medium-1{
+  max-width: 200px;
+  width: 100%;
+  color: #292F39;
+  margin: 10px 0px;
+}
+.fa-facebook-f{
+  color: #0739FF;
+}
+.fa-twitter{
+  color: #00A2FF;
+}
+.fa-instagram{
+  color:#F933DF;
+}
+.picture{
+  max-width: 350px;
+  width: 100%;
+}
+.button3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 62px;
+  max-width: 283px;
+  width: 100%;
+  background-color: #5eb6e1;
+  border-radius: 10px;
+  margin-top: 80px;
+}
+/* Section-6 */
+.testimonials-background{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+  height: 500px;
+  width: 100%;
+  background-color: #000000;
+}
+.testimonial-header{
+  color: #ffffff;
+  text-align: center;
+}
+.lorem{
+  margin: 15px 0px;
+  color:#888888;
+  text-align: center;
+}
+.text-4{
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+  max-width: 400px;
+  width: 100%;
+}
+.line2{
+  display: inline-block;
+  height: 1px;
+  width: 168px;
+  background-color: #00A2FF;
+  align-self: center;
+}
+.elsayed{
+  text-align: center;
+  margin: 15px 0px;
 }
