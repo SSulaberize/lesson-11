@@ -1,0 +1,150 @@
+@media (max-width: 1290px) {
+  .big-pic {
+    height: 700px;
+  }
+}
+@media (max-width: 1222px) {
+  .tri-box {
+    width: 75%;
+    margin-bottom: 20px;
+  }
+  .black-square {
+    height: 1500px;
+  }
+}
+@media (max-width: 1216px) {
+  .three-box {
+    width: 100%;
+  }
+}
+@media (max-width: 1149px) {
+  .big-pic {
+    height: 667px;
+  }
+
+  .bottom-wrap {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer {
+    height: 800px;
+  }
+  .quick-contacts {
+    align-items: center;
+  }
+  .contacts {
+    text-align: center;
+    margin-top: 20px;
+  }
+  .logo-2 {
+    margin-top: 30px;
+  }
+  .right-block {
+    margin-bottom: 30px;
+  }
+}
+@media (max-width: 1120px) {
+  .last-section {
+    height: 1150px;
+    align-content: center;
+  }
+}
+@media (max-width: 1067px) {
+  .trio-container {
+    width: 51%;
+  }
+  .trio-box {
+    margin-top: 10px;
+  }
+  .contact-us {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+@media (max-width: 808px) {
+  .telephone {
+    margin-top: 8px;
+  }
+  .container {
+    left: 50px;
+  }
+}
+
+@media (max-width: 947px) {
+  .triangle-2 {
+    margin-left: 0px;
+    margin-top: 10px;
+    width: 75%;
+    align-items: center;
+  }
+  .triangle-1 {
+    padding-top: 0px;
+  }
+  .section-3 {
+    flex-direction: column;
+    align-items: center;
+  }
+  .text {
+    align-items: center;
+  }
+  .triangle {
+    justify-content: center;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 900px) {
+  .container {
+    left: 150px;
+  }
+}
+@media (max-width: 817px) {
+  .black-square {
+    height: 2000px;
+  }
+  .block {
+    justify-content: center;
+  }
+}
+@media (max-width: 671px) {
+  .fa-bars {
+    display: block;
+  }
+  .high-nav,
+  .telephone {
+    display: none;
+  }
+  .container {
+    left: 5px;
+  }
+  .trio-box {
+    height: max-content;
+  }
+}
+@media (max-width: 640px) {
+  .name {
+    font-size: 25px;
+    font-family: "FuturaPT-Bold";
+  }
+}
+@media (max-width: 465px) {
+  .name {
+    font-size: 20px;
+    font-family: "FuturaPT-Bold";
+  }
+}
+@media (max-width: 450px) {
+  .bottom {
+    display: block;
+  }
+}
+@media (max-width: 370px) {
+  .name {
+    font-size: 15px;
+    font-family: "FuturaPT-Bold";
+  }
+  .button3 {
+    max-width: 183px;
+    width: 100%;
+  }
+}
