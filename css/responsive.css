@@ -16,6 +16,9 @@
   .three-box {
     width: 100%;
   }
+  .block {
+    justify-content: center;
+  }
 }
 @media (max-width: 1149px) {
   .big-pic {
@@ -61,6 +64,11 @@
     align-items: center;
   }
 }
+@media (max-width: 1130px) {
+  .background {
+    background-position: center;
+  }
+}
 @media (max-width: 808px) {
   .telephone {
     margin-top: 8px;
@@ -69,7 +77,6 @@
     left: 50px;
   }
 }
-
 @media (max-width: 947px) {
   .triangle-2 {
     margin-left: 0px;
@@ -92,7 +99,6 @@
     margin-top: 20px;
   }
 }
-
 @media (max-width: 900px) {
   .container {
     left: 150px;
@@ -102,16 +108,14 @@
   .black-square {
     height: 2000px;
   }
-  .block {
-    justify-content: center;
-  }
 }
 @media (max-width: 671px) {
   .fa-bars {
     display: block;
   }
   .high-nav,
-  .telephone {
+  .telephone,
+  .low-nav {
     display: none;
   }
   .container {
@@ -133,6 +137,11 @@
     font-family: "FuturaPT-Bold";
   }
 }
+@media (max-width: 555px) {
+  .black-square {
+    height: 2100px;
+  }
+}
 @media (max-width: 450px) {
   .bottom {
     display: block;
@@ -146,5 +155,13 @@
   .button3 {
     max-width: 183px;
     width: 100%;
+  }
+}
+@media (max-width: 340px) {
+  .contact {
+    flex-direction: column;
+  }
+  .email::after {
+    display: none;
   }
 }

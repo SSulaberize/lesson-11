@@ -1,5 +1,4 @@
 /* Main Elements */
-
 h2 {
   font-family: "FuturaPT";
   font-size: 50px;
@@ -72,7 +71,7 @@ footer {
 }
 .high-nav {
   display: flex;
-  flex-flow: row flex;
+  flex-direction: row;
   justify-content: space-evenly;
   width: 500px;
 }
@@ -82,7 +81,7 @@ footer {
   color: #000000;
   text-transform: capitalize;
 }
-.nav:hover{
+.nav:hover {
   color: #5eb6e1;
 }
 .logo {
@@ -92,11 +91,9 @@ footer {
   font-family: "FuturaPT-Demi";
   color: #262626;
 }
-.telephone:hover{
+.telephone:hover {
   color: #5eb6e1;
-
 }
-
 /* Section 1 */
 .background {
   background-image: url("../images/background.jpg");
@@ -117,18 +114,14 @@ footer {
   background-color: #5eb6e1;
   border-radius: 10px;
 }
-
 .get-started {
   font-family: "FuturaPT";
   font-size: 20px;
   color: #000000;
   text-transform: capitalize;
 }
-
 .container {
   position: absolute;
-  display: flex;
-  flex-flow: column wrap;
   max-width: 550px;
   width: 100%;
   height: 300px;
@@ -271,7 +264,6 @@ footer {
   color: #000000;
   text-transform: capitalize;
 }
-
 .triangle {
   display: flex;
   flex-flow: row wrap;
@@ -428,7 +420,6 @@ footer {
   color: #292f39;
   margin: 10px 0px;
 }
-
 .picture {
   max-width: 350px;
   width: 100%;
@@ -625,7 +616,7 @@ footer {
 }
 .contact {
   display: flex;
-  flex-flow: row flex;
+  flex-direction: row;
   justify-content: space-around;
   max-width: 300px;
   width: 100%;
@@ -647,7 +638,9 @@ footer {
   color: #ffffff;
   font-family: "FuturaPT";
 }
-
+.phone:hover {
+  color: #5eb6e1;
+}
 .social-icons {
   display: flex;
   flex-flow: row wrap;
@@ -660,7 +653,6 @@ footer {
   max-width: 800px;
   width: 100%;
 }
-
 .cyan-box {
   display: flex;
   justify-content: center;
@@ -710,7 +702,7 @@ footer {
   padding: 5px 5px;
   margin: 3px;
 }
-.frame:hover{
+.frame:hover {
   background-color: #5eb6e1;
 }
 .blue-ribbon {
@@ -731,10 +723,10 @@ footer {
   text-transform: capitalize;
   width: 500px;
 }
-.black:hover{
+.black:hover {
   color: #ffffff;
 }
-.bottom {
+.fa-regular {
   display: none;
 }
 .last-span {
