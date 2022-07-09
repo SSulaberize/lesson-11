@@ -486,8 +486,8 @@ footer {
   left: 50%;
   top: 90%;
   -webkit-transform: translate(-50%, -50%);
-      -ms-transform: translate(-50%, -50%);
-          transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
   font-family: "FuturaPT-Book";
   font-size: 35px;
   color: #ffffff;
